@@ -63,17 +63,16 @@ h1, h2 {
 	color: white;
 	background: var(--main-color);
 	padding: .5em;
-
-	max-width: -webkit-fill-available;
-	width: 100%
+ max-width: -webkit-fill-available;
 }
 h1 {
 	padding-left: 14.6vw;margin-top: 0;
+	width: 100%
 }
 h2 {
 	font-family: Arial;
 	font-weight: 100;
-	margin:0;
+	margin:0; width: auto;
     grid-column: 1 / 5
 }
 h3 {
@@ -82,7 +81,7 @@ h3 {
 	width: 4em;
 	padding: 1em;margin: 0;
 	color: var(--main-color);
-	font-size: 1.7rem; font-weight: 600
+	font-size: 2rem; font-weight: 600
 }
 .time:after {
 	content: "МСК";
@@ -148,7 +147,7 @@ border-bottom: 3px solid  #dedede;
     grid-template-columns: 4fr 10px;
     text-decoration: none;
     margin-top: .9em;
-    height: fit-content;
+    height: 2em;
 }
 .btn {
 position: relative;
@@ -407,4 +406,15 @@ display: none;
  	display: none;
  } 
 }
-  
+
+@media (max-width: 450px) {
+	.scl-link {
+		grid-template-columns: 3fr 1fr;
+	}
+}  
+
+@media (max-width: 360px) {
+	.bf {
+		display: none;
+	}
+}
