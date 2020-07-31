@@ -1,3 +1,3 @@
-Адаптивная верстска на гридах, без бутстрапа и препроцессоров.<br>
-(https://github.com/AndrewMarsin/profi-travel-grid/blob/master/img/scr.jpg)
+РђРґР°РїС‚РёРІРЅР°СЏ РІРµСЂСЃС‚СЃРєР° РЅР° РіСЂРёРґР°С…, Р±РµР· Р±СѓС‚СЃС‚СЂР°РїР° Рё РїСЂРµРїСЂРѕС†РµСЃСЃРѕСЂРѕРІ.<br>
+![text](https://github.com/AndrewMarsin/profi-travel-grid/blob/master/img/scr.jpg)
 
